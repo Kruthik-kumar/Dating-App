@@ -1,3 +1,8 @@
+
+
+
+
+
 Set Up MySQL Database
 Make sure your MySQL server is running and create a database called datingdb:
 
@@ -30,7 +35,7 @@ bash
 
 [http://localhost:8080/api/recommendations/{userId}?topN={number}](http://localhost:8080/api/recommendations/2?topN=2)
 
-6. Running Unit Tests
+Running Unit Tests
 To run the unit tests, use the following Maven command:
 
 bash
