@@ -32,20 +32,15 @@ spring.jpa.show-sql=true
 4. Run the Application
 To run the application, use the following command:
 
-bash
-
 mvn spring-boot:run
 
 ScreenShots (https://drive.google.com/file/d/1eQHJ7HKI5bmXl8v6o7yZt6epslf00xsZ/view?usp=sharing)
 Access the Application
 Once the application is running, you can access the recommendation API:
 
-bash
-
 [http://localhost:8080/api/recommendations/{userId}?topN={number}](http://localhost:8080/api/recommendations/2?topN=2)
 
 Running Unit Tests
 To run the unit tests, use the following Maven command:
 
-bash
 mvn test
