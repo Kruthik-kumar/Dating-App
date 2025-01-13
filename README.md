@@ -1,7 +1,16 @@
+Dating-Suggestions
+Overview
+This project implements a dating recommendation engine using Spring Boot and MySQL. The engine recommends potential matches based on shared interests and other criteria such as age and gender.
 
-
-
-
+Features
+User registration with details like name, gender, age, and interests.
+Recommendation service that suggests top matches based on interests, age, and gender.
+In-memory MySQL database for storing user data.
+REST API for fetching recommendations.
+Prerequisites
+Java 23 
+MySQL
+Maven
 
 Set Up MySQL Database
 Make sure your MySQL server is running and create a database called datingdb:
